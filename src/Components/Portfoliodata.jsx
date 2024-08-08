@@ -8,50 +8,26 @@ const portfolioData = [
   {
     image: "Images/ecommerce.png",
     name: "Ecommerce",
-    live: "https://tahmid122.github.io/Ecommerce-Project-1-cara/",
-    github: "https://github.com/tahmid122/Ecommerce-Project-1-cara",
+    live: "https://tahmid122.github.io/Cara-Ecommerce/index.html",
+    github: "https://github.com/tahmid122/Cara-Ecommerce",
   },
   {
     image: "Images/Ereact.png",
     name: "React Ecommerce",
-    live: "",
-    github: "",
+    live: "https://anvougue-ecommerce.netlify.app",
+    github: "https://github.com/tahmid122/anvougue-ecommerce",
   },
   {
     image: "Images/facebook.png",
     name: "Facebook Clone",
-    live: "https://tahmid122.github.io/facebook-clone/",
+    live: "https://tahmid122.github.io/facebook-clone/index.html",
     github: "https://github.com/tahmid122/facebook-clone",
-  },
-  {
-    image: "Images/player.png",
-    name: "Music Player",
-    live: "",
-    github: "",
-  },
-  {
-    image: "Images/quiz.png",
-    name: "Quiz App",
-    live: "",
-    github: "",
   },
   {
     image: "Images/restaurent.png",
     name: "React Restaurent",
-    live: "",
-    github: "",
-  },
-  {
-    image: "Images/toto.png",
-    name: "Todo App",
-    live: "https://tahmid122.github.io/todo-app/",
-    github: "https://github.com/tahmid122/todo-app",
-  },
-  {
-    image: "Images/weather.png",
-    name: "Weather App",
-    live: "",
-    github: "https://github.com/tahmid122/weather-app",
+    live: "https://restaurant-web-clone.netlify.app/",
+    github: "https://github.com/tahmid122/restaurant-clone",
   },
 ];
 

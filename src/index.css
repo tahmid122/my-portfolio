@@ -857,6 +857,7 @@ h3.my-profession {
   cursor: pointer;
   position: relative;
   box-sizing: border-box;
+  border: 5px solid white;
 }
 
 /* .portfolio .portfolio-item .portfolio-item-inner::before {

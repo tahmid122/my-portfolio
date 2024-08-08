@@ -7,18 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 const Portfolio = () => {
   const [isTrue, setIsTrue] = useState(false);
-  const [itemdata, setItemData] = useState(portfolioData2);
   const [video, setVideo] = useState();
-  const [name, setName] = useState();
-  const [btnValue, setBtnValue] = useState("Hard Projects");
-  const handlePortBtn = (e) => {
-    setBtnValue(e.target.value);
-    if (btnValue == "Hard Projects") {
-      setItemData(portfolioData2);
-    } else {
-      setItemData(portfolioData);
-    }
-  };
   return (
     <section className="portfolio section" id="portfolio">
       <div className="container">
@@ -27,39 +16,9 @@ const Portfolio = () => {
           <div className="portfolio-heading padd-15">
             <h2>My Last Projects :</h2>
           </div>
-          <div className="pro-bts" data-aos="zoom-in" data-aos-duration="1000">
-            <button
-              style={{
-                backgroundColor: `${
-                  btnValue == "Hard Projects" ? "black" : ""
-                }`,
-              }}
-              onClick={(e) => {
-                setBtnValue("Hard Projects");
-                setItemData(portfolioData2);
-              }}
-              value={"Hard Projects"}
-            >
-              Hard Projects
-            </button>
-            <button
-              style={{
-                backgroundColor: `${
-                  btnValue == "Simple Projects" ? "black" : ""
-                }`,
-              }}
-              onClick={(e) => {
-                setBtnValue("Simple Projects");
-                setItemData(portfolioData);
-              }}
-              value={"Simple Projects"}
-            >
-              Simple Projects
-            </button>
-          </div>
         </div>
         <div className="row" style={{ position: "relative" }}>
-          {itemdata.map((portfolio, index) => {
+          {portfolioData.map((portfolio, index) => {
             const { image, name, live, github } = portfolio;
             return (
               <div
