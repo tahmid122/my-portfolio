@@ -1,5 +1,11 @@
 const portfolioData = [
   {
+    image: "Images/yummi.png",
+    name: "Restaurant (MERN)",
+    live: "https://yummi-restaurant.netlify.app/",
+    github: "https://github.com/tahmid122/yummi-restaurant",
+  },
+  {
     image: "Images/login.png",
     name: "Login Page",
     live: "https://tahmid122.github.io/login-page/",
