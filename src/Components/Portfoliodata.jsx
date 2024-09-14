@@ -1,4 +1,10 @@
 const portfolioData = [
+    {
+    image: "Images/tailwind.png",
+    name: "Tailwind Landing Page",
+    live: "https://tailwind-landing-site.netlify.app/",
+    github: "https://github.com/tahmid122/tailwind-landng-page",
+  },
   {
     image: "Images/yummi.png",
     name: "Restaurant (MERN)",
