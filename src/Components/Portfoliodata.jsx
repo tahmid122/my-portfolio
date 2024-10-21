@@ -1,4 +1,10 @@
 const portfolioData = [
+  {
+    image: "Images/pranrokto.png",
+    name: "Blood Donation (MERN)",
+    live: "https://pran-rokto.vercel.app/",
+    github: "https://github.com/tahmid122/Pran-Rokto",
+  },
     {
     image: "Images/tailwind.png",
     name: "Tailwind Landing Page",
